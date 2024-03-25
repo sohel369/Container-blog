@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(159, 158, 158, 0.9568627451);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.container .box {
+  height: 300px;
+  width: 250px;
+  background: #fff;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.container .box .box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  background: #4071F4;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.container .box .box1 img {
+  border: 2px solid white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .box .box2 {
+  background: white;
+  height: 50%;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.container .box .box2 h2 {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+.container .box .box2 p {
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+.container .box .box2 button {
+  margin-left: 30%;
+  padding: 4px 20px;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .box {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */
